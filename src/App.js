@@ -88,7 +88,7 @@ function App() {
         localStorage.setItem('data', JSON.stringify(data));
       }
       if (!localStorage.getItem('result')) {
-        var data = {
+        var data1 = {
           HYDERABAD: [],
           MUMBAI: [],
           GOA: [],
@@ -96,7 +96,7 @@ function App() {
           DELHI: [],
           CHENNAI: []
         }
-        localStorage.setItem('result', JSON.stringify(data));
+        localStorage.setItem('result', JSON.stringify(data1));
       }
       var result
       if (localStorage.getItem('result')) {
