@@ -105,7 +105,7 @@ function App() {
           result = res[city]
         } else {
           var result1 = await axios(
-            `http://vast-shore-74260.herokuapp.com/banks?city=${city}`,
+            `https://vast-shore-74260.herokuapp.com/banks?city=${city}`,
           );
           result = result1.data
           res[city] = result
