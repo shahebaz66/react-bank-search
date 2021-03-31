@@ -1,0 +1,15 @@
+
+.head{
+   
+   width: 80%;
+   height: 30px;
+   margin-top: 10px;
+   padding: 50px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+}
+.table{
+    margin: 10px;
+   padding: 50px;
+}
